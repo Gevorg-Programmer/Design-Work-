@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banacev {
+    font-size: 27px !important;
+    font-weight: 700 !important;
+}
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-title h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.header-image {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+}
+
+.section-one-title h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-one p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-one img {
+    width: 100%;
+}
+
+.section-two-title h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-two p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-two img {
+    width: 100%;
+}
+
+.section-three-title h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-three p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-three img {
+    width: 100%;
+}
+
+.section-four-title h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-four p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-four img {
+    width: 100%;
+}
+
+.section-five-title h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-five p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-five img {
+    width: 100%;
+}
+
+.section-six-title h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.section-six p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.section-six img {
+    width: 100%;
+}
+
+@media (max-width: 1600px) {
+    .banacev {
+        font-size: 22px !important;
+    }
+    .header-title h2 {
+        font-size: 32px;
+    }
+    header p {
+        font-size: 20px;
+    }
+    .section-one-title h2 {
+        font-size: 32px;
+    }
+    .section-one p {
+        font-size: 20px;
+    }
+    .section-two-title h2 {
+        font-size: 32px;
+    }
+    .section-two p {
+        font-size: 20px;
+    }
+    .section-three-title h2 {
+        font-size: 32px;
+    }
+    .section-three p {
+        font-size: 20px;
+    }
+    .section-four-title h2 {
+        font-size: 32px;
+    }
+    .section-four p {
+        font-size: 20px;
+    }
+    .section-five-title h2 {
+        font-size: 32px;
+    }
+    .section-five p {
+        font-size: 20px;
+    }
+    .section-six-title h2 {
+        font-size: 32px;
+    }
+    .section-six p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .banacev {
+        font-size: 16px !important;
+    }
+    .header-title h2 {
+        font-size: 26px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    .section-one-title h2 {
+        font-size: 26px;
+    }
+    .section-one p {
+        font-size: 14px;
+    }
+    .section-two-title h2 {
+        font-size: 26px;
+    }
+    .section-two p {
+        font-size: 14px;
+    }
+    .section-three-title h2 {
+        font-size: 26px;
+    }
+    .section-three p {
+        font-size: 14px;
+    }
+    .section-four-title h2 {
+        font-size: 26px;
+    }
+    .section-four p {
+        font-size: 14px;
+    }
+    .section-five-title h2 {
+        font-size: 26px;
+    }
+    .section-five p {
+        font-size: 14px;
+    }
+    .section-six-title h2 {
+        font-size: 26px;
+    }
+    .section-six p {
+        font-size: 14px;
+    }
+}
