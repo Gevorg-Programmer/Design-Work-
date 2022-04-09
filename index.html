@@ -4,18 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>ֆիզմաթ</title>
 </head>
 <body>
-
+    <header>
+        <nav class="navbar navbar-light bg-light fixed-top"  style="background: transparent !important;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon" style="color: #518aff; font-size: 20px;"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#header">1. Մեխանիկական աշխատանք</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#section-one">2. Պոտենցիալային ուժերի աշխատանքը</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#section-two">3. Հզորություն: ՕԳԳ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#section-three">4. Մեխանիկական էներգիա</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#section-four">5. Լրիվ մեխանիկական էներգիայի պահպանման օրենքը</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#section-five">6. Մարմնի իմպուլս: Իմպուլսի պահպանման օրենքը</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#section-six">7. Ռեակտիվ շարժում</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
     <div class="container">
-         <header>
+         <header id="header">
             <div class="container">
                 <div class="row">
                     <div class="header-title col-12">
-                        <h2>1.Մեխանիկական աշխատանք</h2>
+                        <h2>1. Մեխանիկական աշխատանք</h2>
                     </div>
                     <div class="header-text-one col-12">
                         <p>Աշխատանք կատարվում է միայն այն դեպքում, երբ մարմնի վրա ազդւմ է ուժ, և այդ ուժի ազդեցությամբ մարմինը սկսում է շարժում, կամ առաժանում է շարժման փոփոխություն:</p>
@@ -52,11 +93,11 @@
                 </div>
             </div>
          </header>
-         <section class="section-one">
+         <section class="section-one" id="section-one">
             <div class="container">
                 <div class="row">
                     <div class="section-one-title col-12">
-                        <h2>2.Պոտենցիալային ուժերի աշխատանքը</h2>
+                        <h2>2. Պոտենցիալային ուժերի աշխատանքը</h2>
                     </div>
                     <div class="section-one-text-one col-12">
                         <p>Այն ուժերը, որոնց աշխատանքը կախված է միայն նրանց կիրառման կետի սկզբնական ու վերջնական դիրքերից և կախված չէ հետագծի ձևից, կոչվում են պոտենցիալային0:</p>
@@ -100,11 +141,11 @@
                 </div>
             </div>
          </section>
-         <section class="section-two">
+         <section class="section-two" id="section-two">
             <div class="container">
                 <div class="row">
                     <div class="section-two-title col-12">
-                        <h2>3.Հզորություն: ՕԳԳ</h2>
+                        <h2>3. Հզորություն: ՕԳԳ</h2>
                     </div>
                     <div class="section-two-text-one col-12">
                         <p>Այն ֆիզիկական մեծությունը, որը հավասար է մարմնի կատարած աշխատանքի հարաբերությանն այն ժամանակամիջոցին, որի ընթացքում կատարվել է այդ աշխատանքը, կոչվում է հզորություն:</p>
@@ -134,11 +175,11 @@
                 </div>
             </div>
          </section>
-         <section class="section-three">
+         <section class="section-three" id="section-three">
             <div class="container">
                 <div class="row">
                     <div class="section-three-title col-12">
-                        <h2>4.Մեխանիկական էներգիա</h2>
+                        <h2>4. Մեխանիկական էներգիա</h2>
                     </div>
                     <div class="section-three-text col-12">
                         <p>Այն ֆիզիկական մեծությունը, որը բնութագրում է մարմնի աշխատանք կատարելու ունակությունը, կոչվում էներգիա (E):</p>
@@ -169,7 +210,7 @@
                 </div>
             </div>
          </section>
-         <section class="section-four">
+         <section class="section-four" id="section-four">
             <div class="container">
                 <div class="row">
                     <div class="section-four-title col-12">
@@ -207,7 +248,7 @@
                 </div>
             </div>
          </section>
-         <section class="section-five">
+         <section class="section-five" id="section-five">
             <div class="container">
                 <div class="row">
                     <div class="section-five-title col-12">
@@ -233,11 +274,11 @@
                 </div>
             </div>
          </section>
-         <section class="section-six">
+         <section class="section-six" id="section-six">
              <div class="container">
                 <div class="row">
                     <div class="section-six-title col-12">
-                        <h2>6. Ռեակտիվ շարժում</h2>
+                        <h2>7. Ռեակտիվ շարժում</h2>
                     </div>
                     <div class="section-six-text col-12">
                         <p>Ռեակտիվ շարժում  են անվանում այն շարժումը, որի դեպքում մարմնից որոշակի արագությամբ նրա մի մասի անջատման հետևանքով մնացած մասը շարժվում է հակառակ ուղղությամբ:</p>

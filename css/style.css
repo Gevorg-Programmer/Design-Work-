@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+nav {
+    background: transparent !important;
+}
+
+nav .navabar-button {
+    float: right !important;
+    border: none !important;
+}
+
+.offcanvas-title {
+    text-transform: capitalize !important;
+}
+
 .banacev {
     font-size: 27px !important;
     font-weight: 700 !important;
